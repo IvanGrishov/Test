@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			
+			<main class="page">
+                <div class="order">
+    <div class="background _ibg">
+        <img src="img/christmas.jpg" alt="">
+    </div>
+    <div class="order__snow"><img src="img/s1.png" alt=""></div>
+    <div class="order__snow"><img src="img/s2.png" alt=""></div>
+    <div class="order__snow"><img src="img/s3.png" alt=""></div>
+    <div class="order__snow"><img src="img/s4.png" alt=""></div>
+    <div class="order__snow"><img src="img/s1.png" alt=""></div>
+    <div class="order__snow"><img src="img/s2.png" alt=""></div>
+    <div class="order__snow"><img src="img/s3.png" alt=""></div>
+    <!-- <div class="order__snow"><img src="img/s4.png" alt=""></div> -->
+    <div class="order__container _container">
+        <p class="order__title">
+            Закажите трубогиб Гиббон сейчас!
+        </p>
+        <p class="order__subtitle">
+            Не ждите до последнего!
+        </p>
+        <div class="order__content content">
+            <div class="content__row">
+                <div class="content__item">
+                    <div class="content__card">
+                        <div class="content__icon _icon-thumbs-down">
+
+                        </div>
+                        <span>Перед праздниками курьерские и транспортные службы завалены заказами.</span>
+                    </div>
+                </div>
+                <div class="content__item">
+                    <div class="content__card">
+                        <div class="content__icon _icon-thumbs-down">
+
+                        </div>
+                        <span>Досадные задержки, очереди на почте и в пунктах выдачи…</span> 
+                    </div>
+                </div> 
+                <div class="content__item">
+                    <div class="content__card">
+                        <div class="content__icon _icon-thumbs-down">
+
+                        </div>
+                        <span>Из-за всеобщих авралов сроки доставки срываются, посылки "зависают".</span> 
+                    </div>
+                </div>
+            </div>
+            <div class="content__text _icon-thumbs-up">
+                Вывод: Позаботьтесь о покупках заранее!
+            </div> 
+        </div>
+        <div id="countdown" class="order__countdown countdown">
+            <p class="countdown__title">До Нового года осталось!</p>
+            <div class="countdown__wrapper">
+                <div class="countdown__number">
+                    <span class="days countdown__time"></span>
+                    <span class="countdown__text">дней</span>
+                </div>
+                <div class="countdown__separator">:</div>
+                <div class="countdown__number">
+                    <span class="hours countdown__time"></span>
+                    <span class="countdown__text">часов</span>
+                </div>
+                <div class="countdown__separator">:</div>
+                <div class="countdown__number">
+                    <span class="minutes countdown__time"></span>
+                    <span class="countdown__text">минут</span>
+                </div>
+                <div class="countdown__separator">:</div>
+                <div class="countdown__number">
+                    <span class="seconds countdown__time"></span>
+                    <span class="countdown__text">секунд</span>
+                </div>
+            </div>
+            <a href="#form" class="order__button order__button--margin _popup-link">Заказать</a>
+        </div>
+       
+    </div>
+</div>
+
+
+
+
+			</main>
+			
+		</div>
+		<div class="popup popup_form">
+	<div class="popup__content">
+		<div class="popup__body">
+            <div class="popup__close _icon-close"></div>
+            <div class="popup__title">
+                <p>Заказать трубогиб гиббон <span class="popup__span--red">с выгодой 50%</span> за <span class="popup__change-price">6490</span> руб.</p>
+            </div>
+            <div class="popur__row">
+                <div class="popur__image">
+                    <img src="img/order.jpg" alt="">
+                </div> 
+                <form action="#" class="form" id="form">
+                    <div class="form__line">
+                        <select name="brand-name" class="form _icon-double-down _icon-check">
+                            <option value="1" selected="selected">Трубогиб Гиббон</option>
+                            <option value="2">Трубогиб Гиббон Про</option>
+                        </select>
+                    </div>
+                    <div class="form__line _icon-user">
+                        <label for="inp" class="form__label">
+                            <input autocomplete="off" name="name" type="text" class="input input__name" placeholder="Ваше имя" data-value="">
+                        </label>
+                    </div>
+                    <div class="form__line _icon-phone">
+                        <label for="inp" class="form__label">
+                            <input autocomplete="off" name="phone" type="text" class="input _phone input__phone" placeholder="Ваш телефон" data-value="">
+                        </label>
+                    </div>
+                    <div class="form__checkbox">
+                        <label class="checkbox">
+                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="790" name="form[]">
+                            <span class="checkbox__text"><span>+ центробой</span></span>
+                        </label>
+                        <label class="checkbox">
+                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="590" name="form[]">
+                            <span class="checkbox__text"><span>+ адаптер для дрели</span></span>
+                        </label>
+                        <label class="checkbox">
+                            <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="790" name="form[]">
+                            <span class="checkbox__text"><span>+ магнитный угол для сварки</span></span>
+                        </label>
+                    </div>
+                    <button class="btn form__btn order__button order__button--width">Заказать</button>
+                    <p class="popup__info">Мы свяжемся с Вами в течение 5 минут и уточним детали
+                        доставки</p>
+                        
+                </form>
+            </div>      
+		</div>
+	</div>
+</div>
+<!-- <div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div> -->
+
+
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
